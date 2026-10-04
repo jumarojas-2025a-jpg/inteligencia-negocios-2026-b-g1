@@ -1,0 +1,11 @@
+ID,Fecha,Ciudad,Producto,Cantidad,Precio
+1,2026-09-01,Neiva ,Cable,10,2500
+2,2026-09-02,neiva,Breaker,5,18000
+3,2026-09-03,PITALITO,Cable,8,2500
+3,2026-09-03,PITALITO,Cable,8,2500
+4,2026-09-04,Garzon,Tubo EMT,,9500
+5,2026-09-05,garzon ,Breaker,3,18000
+6,2026-09-06,Neiva,Tubo EMT,12,9500
+7,2026-09-07, La Plata,Cable,20,2500
+8,2026-09-08,NEIVA,Breaker,4,
+9,2026-09-09,Pitalito,Tubo EMT,6,9500

@@ -1,0 +1,3 @@
+Total Ingresos = SUM(Ventas[Ingreso])
+Promedio Ingreso = AVERAGE(Ventas[Ingreso])
+Ingreso por Unidad = DIVIDE([Total Ingresos], SUM(Ventas[Cantidad]), 0)
