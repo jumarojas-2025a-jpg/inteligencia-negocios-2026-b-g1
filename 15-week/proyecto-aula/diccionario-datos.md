@@ -32,7 +32,7 @@ Todas las relaciones son de **uno a varios**: un producto, sede, canal, cliente 
 
 ## Fact_Ventas
 
-Origen: `datos/ventas_domipan.csv`
+Origen: `ventas_domipan.csv`
 
 | Columna | Tipo | Descripción | Ejemplo |
 |---|---|---|---|
@@ -54,7 +54,7 @@ Las ventas (cantidad × precio unitario) y el costo de ventas (cantidad × costo
 
 ## Dim_Producto
 
-Origen: `datos/maestros_domipan.xlsx`, hoja Productos
+Origen: `maestros_domipan.xlsx`, hoja Productos
 
 | Columna | Tipo | Descripción | Ejemplo |
 |---|---|---|---|
@@ -69,7 +69,7 @@ Origen: `datos/maestros_domipan.xlsx`, hoja Productos
 
 ## Dim_Cliente
 
-Origen: `datos/maestros_domipan.xlsx`, hoja Clientes. Sin datos personales: solo códigos y datos generales.
+Origen: `maestros_domipan.xlsx`, hoja Clientes. Sin datos personales: solo códigos y datos generales.
 
 | Columna | Tipo | Descripción | Ejemplo |
 |---|---|---|---|
@@ -81,7 +81,7 @@ Origen: `datos/maestros_domipan.xlsx`, hoja Clientes. Sin datos personales: solo
 
 ## Dim_Sede
 
-Origen: `datos/maestros_domipan.xlsx`, hoja Sedes
+Origen: `maestros_domipan.xlsx`, hoja Sedes
 
 | Columna | Tipo | Descripción | Ejemplo |
 |---|---|---|---|
@@ -95,7 +95,7 @@ Origen: `datos/maestros_domipan.xlsx`, hoja Sedes
 
 ## Dim_Canal
 
-Origen: `datos/maestros_domipan.xlsx`, hoja Canales
+Origen: `maestros_domipan.xlsx`, hoja Canales
 
 | Columna | Tipo | Descripción | Ejemplo |
 |---|---|---|---|
@@ -107,7 +107,7 @@ Origen: `datos/maestros_domipan.xlsx`, hoja Canales
 
 ## Festivos (tabla de apoyo)
 
-Origen: `datos/maestros_domipan.xlsx`, hoja Festivos. Se usa para marcar los festivos en el calendario.
+Origen: `maestros_domipan.xlsx`, hoja Festivos. Se usa para marcar los festivos en el calendario.
 
 | Columna | Tipo | Descripción | Ejemplo |
 |---|---|---|---|
