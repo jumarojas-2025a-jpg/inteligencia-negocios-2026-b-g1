@@ -5,16 +5,16 @@ DomiPan Huila S.A.S. es una empresa **ficticia**. Sus datos son sintéticos: no 
 ## 1. Herramientas y archivos
 
 - **Herramienta:** Python 3 con la librería `openpyxl`. El script se escribió con apoyo de una herramienta de IA (Claude, de Anthropic).
-- **Script:** [`datos/generar_datos.py`](../datos/generar_datos.py). Usa una semilla fija (`20251001`), así que cada vez que se ejecuta produce exactamente los mismos datos.
+- **Script:** [`generar_datos.py`](generar_datos.py). Usa una semilla fija (`20251001`), así que cada vez que se ejecuta produce exactamente los mismos datos.
 
 | Archivo | Qué contiene | Filas |
 |---|---|---|
-| `datos/ventas_domipan.csv` | Tabla de hechos: ventas, una fila por producto dentro de un pedido | 114.764 (con duplicados) |
-| `datos/maestros_domipan.xlsx`, hoja Productos | Catálogo de productos con precio y costo base | 32 |
-| `datos/maestros_domipan.xlsx`, hoja Clientes | Clientes por código, sin datos personales | 651 |
-| `datos/maestros_domipan.xlsx`, hoja Sedes | Las tres sedes de Neiva | 3 |
-| `datos/maestros_domipan.xlsx`, hoja Canales | Canales de venta con su comisión | 3 |
-| `datos/maestros_domipan.xlsx`, hoja Festivos | Festivos de Colombia en el periodo | 18 |
+| `ventas_domipan.csv` | Tabla de hechos: ventas, una fila por producto dentro de un pedido | 114.764 (con duplicados) |
+| `maestros_domipan.xlsx`, hoja Productos | Catálogo de productos con precio y costo base | 32 |
+| `maestros_domipan.xlsx`, hoja Clientes | Clientes por código, sin datos personales | 651 |
+| `maestros_domipan.xlsx`, hoja Sedes | Las tres sedes de Neiva | 3 |
+| `maestros_domipan.xlsx`, hoja Canales | Canales de venta con su comisión | 3 |
+| `maestros_domipan.xlsx`, hoja Festivos | Festivos de Colombia en el periodo | 18 |
 
 ## 2. Periodo y mínimos de la guía
 
@@ -168,4 +168,4 @@ pip install openpyxl
 python generar_datos.py
 ```
 
-Se ejecuta dentro de la carpeta `datos/`. Con la misma semilla se obtienen exactamente los mismos archivos y las mismas cifras de control.
+Se ejecuta en la misma carpeta donde están el script y los datos. Con la misma semilla se obtienen exactamente los mismos archivos y las mismas cifras de control.
