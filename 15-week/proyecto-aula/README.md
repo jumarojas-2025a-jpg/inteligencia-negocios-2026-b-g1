@@ -30,8 +30,8 @@
 
 **Archivos de esta fase**
 
-- [`datos/ventas_domipan.csv`](datos/ventas_domipan.csv): ventas (tabla de hechos), tal como salen del sistema, con sus problemas de calidad.
-- [`datos/maestros_domipan.xlsx`](datos/maestros_domipan.xlsx): hojas Productos, Clientes, Sedes, Canales y Festivos.
-- [`datos/generar_datos.py`](datos/generar_datos.py): script de Python que generó los datos.
-- [`docs/generacion-datos.md`](docs/generacion-datos.md): cómo y con qué reglas se generaron, los problemas de calidad y las cifras de control.
-- [`docs/diccionario-datos.md`](docs/diccionario-datos.md): diccionario de datos (tabla, columna, tipo, descripción y ejemplo).
+- [`ventas_domipan.csv`](ventas_domipan.csv): ventas (tabla de hechos), tal como salen del sistema, con sus problemas de calidad.
+- [`maestros_domipan.xlsx`](maestros_domipan.xlsx): hojas Productos, Clientes, Sedes, Canales y Festivos.
+- [`generar_datos.py`](generar_datos.py): script de Python que generó los datos.
+- [`generacion-datos.md`](generacion-datos.md): cómo y con qué reglas se generaron, los problemas de calidad y las cifras de control.
+- [`diccionario-datos.md`](diccionario-datos.md): diccionario de datos (tabla, columna, tipo, descripción y ejemplo).
