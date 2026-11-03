@@ -35,3 +35,6 @@
 - [`generar_datos.py`](generar_datos.py): script de Python que generó los datos.
 - [`generacion-datos.md`](generacion-datos.md): cómo y con qué reglas se generaron, los problemas de calidad y las cifras de control.
 - [`diccionario-datos.md`](diccionario-datos.md): diccionario de datos (tabla, columna, tipo, descripción y ejemplo).
+- [`etl-power-query.md`](etl-power-query.md): pasos aplicados en Power Query, con el antes y el después de los 4 problemas de calidad.
+- [`capturas/`](capturas/): capturas de la Fase 1.
+- [`DomiPan.pbix`](DomiPan.pbix): archivo de Power BI con los datos ya limpios.
