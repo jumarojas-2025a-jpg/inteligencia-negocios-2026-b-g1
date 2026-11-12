@@ -37,4 +37,11 @@
 - [`diccionario-datos.md`](diccionario-datos.md): diccionario de datos (tabla, columna, tipo, descripción y ejemplo).
 - [`etl-power-query.md`](etl-power-query.md): pasos aplicados en Power Query, con el antes y el después de los 4 problemas de calidad.
 - [`capturas/`](capturas/): capturas de la Fase 1.
-- [`DomiPan.pbix`](DomiPan.pbix): archivo de Power BI con los datos ya limpios.
+- [`DomiPan.pbix`](DomiPan.pbix): archivo de Power BI con los datos ya limpios (desde la Fase 2 incluye también el modelo, las medidas y el tablero).
+
+### Fase 2 · Modelo, medidas y tablero
+
+El tablero de `DomiPan.pbix` tiene 3 páginas, una pregunta por página: **1 Canales** (¿qué canal le deja más a DomiPan?), **2 Productos** (¿qué productos dejan más margen?, con la jerarquía categoría → subcategoría → producto) y **3 Franjas** (¿en qué franja se concentra la venta?). En cada página, la tarjeta del KPI está arriba a la izquierda y hay dos segmentadores sincronizados (sede y mes).
+
+- [`medidas-dax.md`](medidas-dax.md): modelo estrella, las 8 medidas DAX con sus cifras de control, el tablero y la prueba del clic (3 selecciones que coinciden con las cifras de control).
+- [`capturas/`](capturas/): capturas `fase2-01` a `fase2-08` (modelo, relaciones, las 3 páginas y la prueba del clic).
